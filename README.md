@@ -4,7 +4,7 @@
 
 I'm working on a clone of instagram. It's a pure css clone.
 
-I'm did this project, because I wanted to learn a little bit about figma prototyping.
+I did this project, because I wanted to learn a little bit about figma prototyping.
 
 ---
 
