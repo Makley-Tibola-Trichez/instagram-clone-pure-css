@@ -1,0 +1,50 @@
+nav {
+  width: 100%;
+  height: 54px;
+
+  background: #fff;
+  outline: 1px solid #dbdbdb;
+
+  top: 0;
+  position: sticky;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 368.5px 199px 368.5px;
+}
+
+div.actions {
+  height: 28px;
+  margin-left: 75px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.actions > span {
+  cursor: pointer;
+}
+
+#user-image {
+  height: 22px;
+  width: 22px;
+  border: 0;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+nav > input {
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 3px;
+  outline: 0;
+
+  padding: 1px 24px;
+
+  height: 28px;
+}
+
+::placeholder {
+  text-align: center;
+}

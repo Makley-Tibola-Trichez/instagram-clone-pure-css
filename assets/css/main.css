@@ -1,0 +1,64 @@
+main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 614px 293px;
+  column-gap: 28px;
+  justify-content: center;
+}
+
+section#fst-column {
+  height: 100vh;
+}
+
+section#snd-column {
+  background: red;
+  height: 370px;
+}
+
+section#feed {
+  margin-bottom: 24px;
+}
+
+article {
+  margin-bottom: 24px;
+  border: 1px solid #dbdbdb;
+}
+
+article > header {
+  background: #fff;
+  height: 72px;
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article > img.post-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background: #fff;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.qtt-likes {
+  height: 24px;
+  width: 100%;
+}
+
+.comments {
+  height: 100px;
+  width: 100%;
+}
