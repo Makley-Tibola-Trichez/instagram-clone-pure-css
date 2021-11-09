@@ -31,7 +31,6 @@ article > header {
   border-bottom: 1px solid #dbdbdb;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -46,11 +45,12 @@ footer {
 }
 
 .post-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-  width: 100%;
+  margin: 12px;
+  gap: 12px;
+}
+
+.save-button {
+  float: right;
 }
 
 .qtt-likes {
@@ -61,4 +61,44 @@ footer {
 .comments {
   height: 100px;
   width: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: 12px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+.user-image {
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header {
+  display: inline;
+}
+
+.user-name {
+  width: 100%;
+}
+
+.user-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-options {
+  height: 100%;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
 }
